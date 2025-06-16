@@ -6,7 +6,7 @@ sites:
   - name: soulbach.at
     url: https://www.soulbach.at
     method: GET
-    expectedStatus: 200
+    expectedStatus: 200 #updated
     maxResponseTime: 1000
     followRedirects: true
     headers: {}    
