@@ -10,6 +10,13 @@ sites:
     maxResponseTime: 1000
     followRedirects: true
     headers: {}    
+  - name: soulbach.at
+    url: https://www.soulbach.eu
+    method: GET
+    expectedStatus: 200 #updated
+    maxResponseTime: 1000
+    followRedirects: true
+    headers: {}    
 #  - name: IPv6 test
 #    url: forwardemail.net
 #    port: 80
